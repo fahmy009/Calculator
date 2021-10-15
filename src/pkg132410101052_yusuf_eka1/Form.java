@@ -112,6 +112,13 @@ public class Form {
                 klikOperation(evt, '+');
             }
         });
+
+        tambah2 = new JButton("+");
+        tambah2.addActionListener(new java.awt.event.ActionListener()){
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                klikOperation(evt, '+');
+            }
+        }
         
         kurangi = new JButton("-");// instantiate object kurangi
         //memberikan event handling pada tombol
